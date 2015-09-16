@@ -1,6 +1,6 @@
 {
   "name": "filesystem-bower-resolver-sync",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Sync filesystem resolver for bower",
   "main": "index.js",
   "keywords": [
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "https://github.com/b0c1/filesystem-bower-resolver.git"
   },
-  "author": "Igor Dimitrijevic <igor@backbase.com>",
+  "author": "Janos Haber <boci.boci@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "fs-extra-promise": "^0.2.1"

@@ -12,7 +12,7 @@ Filesystem [pluggable Resolver](http://bower.io/docs/pluggable-resolvers/) for [
 You can install it either globally:
 
 ```
-npm install --global filesystem-bower-resolver
+npm install --global filesystem-bower-resolver-sync
 ```
 
 or add it as `devDependency` to your `package.json` file
@@ -25,7 +25,7 @@ Add `filesystem-bower-resolver` to [.bowerrc](http://bower.io/docs/config/)
 ...
 {
   "resolvers": [
-    "filesystem-bower-resolver"
+    "filesystem-bower-resolver-sync"
   ]
 }
 ```

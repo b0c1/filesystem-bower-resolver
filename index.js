@@ -49,7 +49,7 @@ module.exports = function resolver(bower) {
         // See the "Resolver API" section for details on this method
         fetch: function (endpoint, cached) {
             var tempPath = path.join(os.tmpdir(), endpoint.name);
-            fs.copy(endpoint.source, tempPath);
+            fs.copySync(endpoint.source, tempPath);
             return {
                 tempPath: tempPath,
                 removeIgnores: true,

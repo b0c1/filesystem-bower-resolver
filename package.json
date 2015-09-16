@@ -1,14 +1,14 @@
 {
-  "name": "filesystem-bower-resolver",
+  "name": "filesystem-bower-resolver-sync",
   "version": "1.0.1",
-  "description": "Filesystem resolver for bower",
+  "description": "Sync filesystem resolver for bower",
   "main": "index.js",
   "keywords": [
     "bower-resolver"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Backbase/filesystem-bower-resolver.git"
+    "url": "https://github.com/b0c1/filesystem-bower-resolver.git"
   },
   "author": "Igor Dimitrijevic <igor@backbase.com>",
   "license": "ISC",
